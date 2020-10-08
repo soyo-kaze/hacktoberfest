@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={Icon} alt="Hacktoberfest Logo" />
         <h1><i>Hacktoberfest Hackers</i></h1>
-        <p>Name</p> /* Copy paste this below and replace "Name" with your own name */
+        <p>Name</p> { /* Copy paste this below and replace "Name" with your own name */ }
       </header>
     </div>
   );
