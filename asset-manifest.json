@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hacktoberfest/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hacktoberfest/static/js/main.dbb8b6ea.chunk.js",
+    "main.js.map": "/hacktoberfest/static/js/main.dbb8b6ea.chunk.js.map",
+    "runtime-main.js": "/hacktoberfest/static/js/runtime-main.e307667c.js",
+    "runtime-main.js.map": "/hacktoberfest/static/js/runtime-main.e307667c.js.map",
+    "static/js/2.51e608dc.chunk.js": "/hacktoberfest/static/js/2.51e608dc.chunk.js",
+    "static/js/2.51e608dc.chunk.js.map": "/hacktoberfest/static/js/2.51e608dc.chunk.js.map",
+    "index.html": "/hacktoberfest/index.html",
+    "precache-manifest.661388080ad4d7285f5b3450f9a53fd0.js": "/hacktoberfest/precache-manifest.661388080ad4d7285f5b3450f9a53fd0.js",
+    "service-worker.js": "/hacktoberfest/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/hacktoberfest/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.51e608dc.chunk.js.LICENSE.txt": "/hacktoberfest/static/js/2.51e608dc.chunk.js.LICENSE.txt",
+    "static/media/Icon.svg": "/hacktoberfest/static/media/Icon.3197e1e6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e307667c.js",
+    "static/js/2.51e608dc.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.dbb8b6ea.chunk.js"
+  ]
+}
