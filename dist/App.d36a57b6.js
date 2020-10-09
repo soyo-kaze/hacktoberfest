@@ -44204,7 +44204,9 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"App.js":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"hero-mobile-tshirt-dark.png":[function(require,module,exports) {
+module.exports = "/hero-mobile-tshirt-dark.0ca528fa.png";
+},{}],"App.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -44215,26 +44217,27 @@ var _reactBootstrap = require("react-bootstrap");
 
 require("./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
+var _heroMobileTshirtDark = _interopRequireDefault(require("./hero-mobile-tshirt-dark.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import icon from "https://cdn.discordapp.com/attachments/747736205176733767/764042780867428362/posters1.png"
 var App = function App() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, {
     style: {
-      height: "500px",
+      height: "100%",
       display: "flex",
       alignItems: "center"
     }
   }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, {
     className: "text-center"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
+  }, /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("img", {
+    src: _heroMobileTshirtDark.default,
     alt: "Hacktoberfest Logo"
   }), /*#__PURE__*/_react.default.createElement("h1", null, /*#__PURE__*/_react.default.createElement("i", null, "Hacktoberfest Hackers")), /*#__PURE__*/_react.default.createElement("p", null, "Name"))));
 };
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), document.getElementById("root"));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-bootstrap":"node_modules/react-bootstrap/esm/index.js","./node_modules/bootstrap/dist/css/bootstrap.min.css":"node_modules/bootstrap/dist/css/bootstrap.min.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-bootstrap":"node_modules/react-bootstrap/esm/index.js","./node_modules/bootstrap/dist/css/bootstrap.min.css":"node_modules/bootstrap/dist/css/bootstrap.min.css","./hero-mobile-tshirt-dark.png":"hero-mobile-tshirt-dark.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -44262,7 +44265,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44377" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51759" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
