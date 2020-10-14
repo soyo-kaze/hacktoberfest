@@ -10,7 +10,18 @@ function App() {
         <h1><i>Hacktoberfest Hackers</i></h1>
         <p>Name</p> { /* Copy paste this below and replace "Name" with your own name */ }
         <p>Name2</p>
+
     <p>Name3</p>
+
+
+        <p>Nidhi</p>
+
+        <p>Shreya</p>
+
+        <p>Aniket</p>
+
+
+
       </header>
     </div>
   );
