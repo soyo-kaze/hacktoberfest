@@ -11,9 +11,12 @@ function App() {
         <p>Name</p> { /* Copy paste this below and replace "Name" with your own name */ }
         <p>Name2</p>
 
+        <p>Nidhi</p>
+
         <p>Shreya</p>
 
         <p>Aniket</p>
+
 
       </header>
     </div>
